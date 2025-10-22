@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     //Insert Inclass Project code Below!
-    int applenum = 0;
+    int temp = 0;
 
     Scanner input = new Scanner(System.in);
-    System.out.println("How many apples are there?");
-    applenum = input.nextInt();
-    System.out.println(applenum);
+    temp  = input.nextInt();
     input.close();
+
+    System.out.println(temp);
   }
   // random num gen
   public static int randomInt(int min, int max) {
